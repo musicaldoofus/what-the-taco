@@ -2,11 +2,11 @@ import React from 'react';
 import './Footer.css';
 
 const Footer = () => (
-	<div className="footer" role="footer">
+	<footer className="footer" role="contentinfo">
 		<div>
 			<p className="sm muted">copyright 2019 what the taco</p>
 		</div>
-	</div>
+	</footer>
 );
 
 export default Footer;

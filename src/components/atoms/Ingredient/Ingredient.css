@@ -4,7 +4,18 @@
     padding: 4px 8px;
     background-color: #404547;
 	font-size: 18px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	border-radius: 2px;
+}
+.ingredient > span:first-child {
+
+    margin-right: 8px;
+    border-right: 1px solid white;
+    padding-right: 8px;
+    border-radius: 2px;
+	font-weight: 500;
+}
+.ingredient > span:last-child {
+	font-weight: 100;
 }

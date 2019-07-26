@@ -23,11 +23,12 @@ section {
 	margin-bottom: 40px;
 }
 #ingredients {
-	display: flex;
-	flex-direction: row;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 8px;
 }
 .ingredient {
-	margin: 0 8px;
+	
 }
 .ingredient:first-child {
 	margin-left: 0;
