@@ -1,0 +1,22 @@
+/*RecipeCard.css*/
+.recipe-card {
+	display: grid;
+	grid-template-rows: 80px 16px auto 8px auto 16px auto 16px auto;
+	padding: 16px;
+	min-width: 300px;
+	background-color: #fff;
+	transition: all ease 0.2s;
+}
+.recipe-card > div:first-child {
+    overflow: hidden;
+}
+.recipe-card > div:first-child > img {
+	margin-top: -16px;
+}
+
+.recipe-card > div:last-child {
+    text-align: right;
+}
+.recipe-card:hover {
+	box-shadow: 0 8px 12px 4px #7f8c8d;
+}

@@ -1,0 +1,34 @@
+/*GetTacosRecipe.css*/
+#back-to-recipes > a {
+	color: inherit;
+	text-decoration: none;
+	transition: all ease 0.2s;
+}
+#recipe-title > div {
+	text-align: center;
+}
+#recipe-title > div:first-child {
+	margin-bottom: 8px;
+}
+#recipe-img {
+	margin: 40px 0;
+	min-width: 340px;
+	height: 240px;
+	overflow: hidden;
+}
+section > div > h2 {
+	margin-bottom: 16px;
+}
+section {
+	margin-bottom: 40px;
+}
+#ingredients {
+	display: flex;
+	flex-direction: row;
+}
+.ingredient {
+	margin: 0 8px;
+}
+.ingredient:first-child {
+	margin-left: 0;
+}

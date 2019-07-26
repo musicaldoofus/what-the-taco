@@ -1,0 +1,8 @@
+/*Footer.css*/
+.footer {
+	height: 160px;
+	display: flex;
+}
+.footer > div {
+	margin: auto;
+}

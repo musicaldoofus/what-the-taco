@@ -1,0 +1,40 @@
+/*GetTacos.css*/
+.recipes-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-gap: 16px;
+}
+div[role="banner"] {
+	text-align: center;
+}
+div[role="banner"] > div:first-child {
+	margin-bottom: 40px;
+}
+div[role="banner"] > div:last-child {
+	display: flex;
+	justify-content: space-around;
+	max-width: 20rem;
+	margin: auto;
+}
+div[role="banner"] > div:last-child > span {
+	height: 24px;
+	width: 4px;
+	background-color: #0092ff;
+	display: block;
+	border-radius: 1000px;
+}
+div[role="banner"] > div:last-child > div:last-child {
+	
+}
+
+/*media queries*/
+@media only screen and (max-width: 980px) {
+	.recipes-container {
+		grid-template-columns: auto auto;
+	}
+}
+@media only screen and (max-width: 640px) {
+	.recipes-container {
+		grid-template-columns: auto;
+	}
+}
