@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/what-the-taco/static/css/main.4817af0e.chunk.css",
+    "main.js": "/what-the-taco/static/js/main.5cccc0ab.chunk.js",
+    "main.js.map": "/what-the-taco/static/js/main.5cccc0ab.chunk.js.map",
+    "runtime~main.js": "/what-the-taco/static/js/runtime~main.aaeb460f.js",
+    "runtime~main.js.map": "/what-the-taco/static/js/runtime~main.aaeb460f.js.map",
+    "static/js/2.7191ffc8.chunk.js": "/what-the-taco/static/js/2.7191ffc8.chunk.js",
+    "static/js/2.7191ffc8.chunk.js.map": "/what-the-taco/static/js/2.7191ffc8.chunk.js.map",
+    "index.html": "/what-the-taco/index.html",
+    "precache-manifest.5735d64eaa434ced36013467fdc57101.js": "/what-the-taco/precache-manifest.5735d64eaa434ced36013467fdc57101.js",
+    "service-worker.js": "/what-the-taco/service-worker.js",
+    "static/css/main.4817af0e.chunk.css.map": "/what-the-taco/static/css/main.4817af0e.chunk.css.map",
+    "static/media/WhatTheTacoLogo.svg": "/what-the-taco/static/media/WhatTheTacoLogo.dd029ff3.svg",
+    "static/media/WhatTheTacoLogoText.svg": "/what-the-taco/static/media/WhatTheTacoLogoText.54f8769b.svg",
+    "static/media/magnifying-glass.svg": "/what-the-taco/static/media/magnifying-glass.595cd6ce.svg",
+    "static/media/stock-taco-1.webp": "/what-the-taco/static/media/stock-taco-1.db6dc55f.webp",
+    "static/media/stock-taco-2.jpg": "/what-the-taco/static/media/stock-taco-2.9b4a95a7.jpg"
+  }
+}
