@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { Link } from 'react-router-dom';
 import Page from '../../';
 import tacos from '../../../../utils/tacos';
@@ -83,14 +83,17 @@ class GetTacosRecipe extends Component {
 						<h2>how to make these tacos</h2>
 					</div>
 					<div id="directions">
-						<div>
-							<h3>ingredient prep</h3>
-						</div>
-						<div>
-							<ul>
-								{ingredientPrepList}
-							</ul>
-						</div>
+						{ingredientPrepList.length > 1 &&
+						<Fragment>
+							<div>
+								<h3>ingredient prep</h3>
+							</div>
+							<div>
+								<ul>
+									{ingredientPrepList}
+								</ul>
+							</div>
+						</Fragment>}
 						<div>
 							<h3>directions</h3>
 						</div>

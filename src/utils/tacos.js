@@ -3,7 +3,8 @@ import stockTacoTwo from '../media/img/stock-taco-2.jpg';
 
 const INGREDIENTS = {
 	//tortillas
-	TORTILLA: 'tortilla',
+	TORTILLA_CORN: 'corn tortilla',
+	TORTILLA_FLOUR: 'flour tortilla',
 	
 	//fillings
 	RICE: 'rice',
@@ -19,17 +20,21 @@ const INGREDIENTS = {
 	GARLIC: 'garlic cloves',
 	RADISH: 'radishes',
 	CILANTRO: 'cilantro',
+	AVACADO: 'avacado',
 	
 	//cheeses
 	CHEESE_QUESO: 'queso fresco',
 	
-	//garnishes and sauces
+	//garnishes, sauces, misc
+	OIL: 'vegetable/canola oil',
 	LIME: 'lime',
 	LIME_JUICE: 'lime juice',
 	ORANGE: 'orange',
 	ORANGE_JUICE: 'orange juice',
 	VINEGAR_APPLE_CIDER: 'apple cider vinegar',
 	HONEY: 'honey',
+	SOUR_CREAM: 'sour cream',
+	HOT_SAUCE: 'hot sauce',
 	
 	//spices
 	PAPRIKA: 'paprika',
@@ -40,6 +45,8 @@ const INGREDIENTS = {
 	ONION_POWDER: 'onion powder',
 	CUMIN: 'cumin',
 	GARLIC_POWDER: 'garlic powder',
+	CHILI_POWDER: 'chili powder',
+	CAYENNE: 'cayenne pepper',
 	
 	//meats
 	CHICKEN: 'chicken',
@@ -48,33 +55,7 @@ const INGREDIENTS = {
 	FISH: 'fish',
 };
 
-
-
 const tacos = [
-	{
-		id: 0,
-		label: 'chicken tinga',
-		prepDuration: '30 minutes',
-		description: 'Super duper saucerini chicken-tini.',
-		imgSrc: stockTacoTwo,
-		ingredients: [
-			{
-				label: INGREDIENTS.TORTILLA,
-				amt: '1',
-			},
-			{
-				label: INGREDIENTS.RED_CABBAGE,
-				amt: '1/4 cup',
-			},
-			{
-				label: INGREDIENTS.CHICKEN,
-				amt: '2 breasts',
-			}
-		],
-		recipeSteps: [
-			'Before doing something, do this first. Then, do that.'
-		]
-	},
 	{
 		id: 1,
 		label: 'slow cooker carnitas',
@@ -84,8 +65,6 @@ const tacos = [
 		description: '',
 		imgSrc: 'https://www.spicesinmydna.com/wp-content/uploads/2018/04/Carnitas-Street-Tacos-12.jpg',
 		ingredients: [
-		
-
 			{
 				label: INGREDIENTS.ONION,
 				amt: '1',
@@ -186,6 +165,159 @@ const tacos = [
 			'Preheat your broiler to high and position the rack in the upper third of the oven. Add the shredded pork to a rimmed baking sheet in a single layer.',
 			'Broil for 3-4 minutes or until slightly crispy and golden on top.',
 			'To assemble the tacos, char the tortillas if desired, and top them with the carnitas, a handful of pickled onions, a sprinkle of queso fresco and cilantro, and a squeeze of lime. Serve immediately!'
+		]
+	},
+	{
+		id: 2,
+		label: 'fish tacos',
+		prepDuration: '20 minutes',
+		cookTime: '8 hours',
+		servings: 4,
+		description: 'You just can\'t go wrong with fresh, flavorful, and healthy Grilled Fish Tacos. These fish tacos are loaded with all the best toppings, including cabbage, pico de gallo and a simple homemade white sauce, or "crema", and they can be ready in less than 30 minutes.',
+		imgSrc: 'https://tastesbetterfromscratch.com/wp-content/uploads/2018/04/Fish-Tacos-8.jpg',
+		ingredients: [
+			{
+				label: INGREDIENTS.FISH,
+				amt: '1 lb',
+				prep: 'debone'
+			},
+			{
+				label: INGREDIENTS.OIL,
+				amt: '2 tbsp'
+			},
+			{
+				label: INGREDIENTS.LIME_JUICE,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.GARLIC,
+				amt: '1 clove',
+				prep: 'mince'
+			},
+			{
+				label: INGREDIENTS.CHILI_POWDER,
+				amt: '1 1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.CUMIN,
+				amt: '1 tsp'
+			},
+			{
+				label: INGREDIENTS.PAPRIKA,
+				amt: '1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.CAYENNE,
+				amt: '1/4 tsp'
+			},
+			{
+				label: INGREDIENTS.TORTILLA_CORN,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.SOUR_CREAM,
+				amt: '1/2 c.'
+			},
+			{
+				label: INGREDIENTS.MAYONNAISE,
+				amt: '1/3 c.'
+			},
+			{
+				label: INGREDIENTS.LIME_JUICE,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.GARLIC_POWDER,
+				amt: '1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.CUMIN,
+				amt: '1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.SALT,
+				amt: '1/4 tsp'
+			}
+		],
+		recipeSteps: [
+			'Season the fish with a little salt and pepper on both sides.',
+			'In a mixing bowl whisk together the oil, lime juice, garlic, chili powder, cumin, paprika, cayenne.',
+			'Add fish to a large ziplock bag and pour the marinade over fish. Seal bag and allow fish to marinade for 20-30 minutes.',
+			'Preheat grill to medium-high heat. Brush grill grates with oil and grill fish filets for about 3-4 minutes on each side (cook time will vary depending on thickness of fish), flipping only once.',
+			'Add the corn tortillas to the grill and warm for about 15 seconds on each side.',
+			'Transfer fish to a plate and allow to rest for a few minutes before gently breaking into pieces.',
+			'Serve on warm tortillas, topped with cabbage, pico de gallo, sauce and other desired toppings.',
+			'Serve with a side of Authentic Mexican rice.'
+		]
+	},
+	{
+		id: 2,
+		label: 'spicy avacado dressing',
+		prepDuration: '5 minutes',
+		cookTime: '1 minute',
+		servings: 4,
+		description: 'Grabbed from part of a recipe',
+		imgSrc: '',
+		ingredients: [
+			{
+				label: INGREDIENTS.AVACADO,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.LIME,
+				amt: '1/2'
+			},
+			{
+				label: INGREDIENTS.HOT_SAUCE,
+				amt: '1 - 2 tsp'
+			}
+		],
+		recipeSteps: [
+			'In a blender or food processor add the avocado, lime, hot sauce, and 1/4 cup of water.',
+			'Puree, adding more water one tablespoon at a time until thin and drizzly like a dressing. Adjust hot sauce to taste.'
+		]
+	},
+	{
+		id: 3,
+		label: 'creamy taco sauce',
+		prepDuration: '5 minutes',
+		cookTime: '1 minute',
+		servings: 4,
+		description: 'Grabbed from part of a recipe',
+		imgSrc: '',
+		ingredients: [
+			{
+				label: INGREDIENTS.SOUR_CREAM,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.MAYONNAISE,
+				amt: '1/2'
+			},
+			{
+				label: INGREDIENTS.LIME_JUICE,
+				amt: '1'
+			},
+			{
+				label: INGREDIENTS.GARLIC_POWDER,
+				amt: '1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.CUMIN,
+				amt: '1/2 tsp'
+			},
+			{
+				label: INGREDIENTS.SALT,
+				amt: '1 tsp'
+			},
+			{
+				label: INGREDIENTS.HOT_SAUCE,
+				amt: '1 tsp'
+			}
+		],
+		recipeSteps: [
+			'In a blender or food processor add the avocado, lime, hot sauce, and 1/4 cup of water.',
+			'Puree, adding more water one tablespoon at a time until thin and drizzly like a dressing. Adjust hot sauce to taste.'
 		]
 	}
 ];
