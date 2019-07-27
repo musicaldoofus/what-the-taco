@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffd400b8988ea39bb3709fbde5c210f4",
+    "revision": "661433a06745d16e3afee04fe8620527",
     "url": "/what-the-taco/index.html"
   },
   {
-    "revision": "04a016b7b7cca576780c",
+    "revision": "a7bb5c2f7de92d3a2513",
     "url": "/what-the-taco/static/css/main.69aa4b4d.chunk.css"
   },
   {
-    "revision": "f90f5a9ef927a7225b3a",
-    "url": "/what-the-taco/static/js/2.8d3aa302.chunk.js"
+    "revision": "8cebd8c9f72847daaf54",
+    "url": "/what-the-taco/static/js/2.e8312276.chunk.js"
   },
   {
-    "revision": "04a016b7b7cca576780c",
-    "url": "/what-the-taco/static/js/main.35dd4a79.chunk.js"
+    "revision": "a7bb5c2f7de92d3a2513",
+    "url": "/what-the-taco/static/js/main.c94aef2a.chunk.js"
   },
   {
     "revision": "4e75c4bf9df6bb36efd3",
