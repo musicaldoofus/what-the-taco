@@ -21,6 +21,8 @@ const INGREDIENTS = {
 	RADISH: 'radishes',
 	CILANTRO: 'cilantro',
 	AVACADO: 'avacado',
+	PEPPER: 'pepper',
+	PEPPER_SERRANO: 'serrano pepper',
 	
 	//cheeses
 	CHEESE_QUESO: 'queso fresco',
@@ -35,6 +37,9 @@ const INGREDIENTS = {
 	HONEY: 'honey',
 	SOUR_CREAM: 'sour cream',
 	HOT_SAUCE: 'hot sauce',
+	TOMATO_SAUCE: 'tomato sauce',
+	TOMATO_BOUILLON: 'tomato bouillon cube',
+	MAYONNAISE: 'mayonnaise',
 	
 	//spices
 	PAPRIKA: 'paprika',
@@ -319,8 +324,58 @@ const tacos = [
 			'In a blender or food processor add the avocado, lime, hot sauce, and 1/4 cup of water.',
 			'Puree, adding more water one tablespoon at a time until thin and drizzly like a dressing. Adjust hot sauce to taste.'
 		]
+	},
+	{
+		id: 4,
+		label: 'mexican rice',
+		prepDuration: '5 minutes',
+		cookTime: '20 minutes',
+		servings: 4,
+		description: 'Grabbed from part of a recipe',
+		imgSrc: '',
+		ingredients: [
+			{
+				label: INGREDIENTS.RICE,
+				amt: '1 1/2 c',
+				prep: 'rinse'
+			},
+			{
+				label: INGREDIENTS.OIL,
+				amt: '1/4 c'
+			},
+			{
+				label: INGREDIENTS.GARLIC,
+				amt: '1 tsp',
+				prep: 'mince'
+			},
+			{
+				label: INGREDIENTS.ONION,
+				amt: '1/4',
+				prep: 'dice'
+			},
+			{
+				label: INGREDIENTS.TOMATO_SAUCE,
+				amt: '1/4 c'
+			},
+			{
+				label: INGREDIENTS.TOMATO_BOUILLON,
+				amt: '2 cubes'
+			},
+			{
+				label: INGREDIENTS.SALT,
+				amt: '1/4 tsp'
+			},
+			{
+				label: INGREDIENTS.PEPPER_SERRANO,
+				amt: '3 - 4'
+			}
+		],
+		recipeSteps: [
+			'In a large saucepan over medium-high heat, add the oil. Add the rice and stir to combine. Cook over medium heat, stirring frequently, until the rice is lightly golden brown all over (about 10 minutes).',
+			'Add tomato sauce, garlic, and diced onion to the pan. Stir. Add the tomato bullion cubes, salt, carrots, peas, and 1/4 c water (and serrano peppers, if using. They add a little flavor, but not spice.).',
+			'Cook, stirring, until bullion cubes are completely dissolved. Bring to a boil, then cover, reduce heat to low and cook for about 20 minutes or until the water is completely absorbed.  Remove from heat and allow to rest for 5 minutes before fluffing with a fork.'
+		]
 	}
 ];
-
 
 export default tacos;
